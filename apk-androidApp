@@ -1,0 +1,19 @@
+workable apps that can be downloaded and installed on android. 
+Useful for visualizing 
+
+User interface
+The app has three main interactive parts
+  Home, here you can 
+    Establish a connection with a known, transmitting bluetooth unit
+    Navigate to Settings and Home
+  Settings, here you can
+    Change visualization parameters such as 	
+      Timespan (how many data points are visualized, horizontal window)
+      Lower and upper bound (vertical scale and shift of data to the window)  
+    If there are several sensors, you can switch between which you are visualizing. 
+    Navigate to Plot and Home
+  Plot, here you can
+    Look at an online data plot
+    Navigate to Settings and Home
+
+While receiving data, the app also writes the data to a .csv file in downloads called arduinoData with the month and day : MMM_d. 
