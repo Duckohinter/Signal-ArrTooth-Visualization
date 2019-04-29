@@ -10,7 +10,7 @@ The app has three main interactive parts
     Change visualization parameters such as 	
       Timespan (how many data points are visualized, horizontal window)
       Lower and upper bound (vertical scale and shift of data to the window)  
-    If there are several sensors, you can switch between which you are visualizing. 
+    There is an option for selecting different sensors, this is however not properly implemented in the current apps.  
     Navigate to Plot and Home
   Plot, here you can
     Look at an online data plot
