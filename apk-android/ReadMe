@@ -15,5 +15,11 @@ The app has three main interactive parts
   Plot, here you can
     Look at an online data plot
     Navigate to Settings and Home
+    
+ There are two different conventions used for separating bytes textmessages between arduino and app, 
+ either "<x\n" or "<x>" where x is the sent byte. 
+ TransmitTextDataViaBt version 1 uses the older "<x>" , whilst versions 2 and 3 uses the newer "<x\n".
+ The apps speedLimit and NopeWasSomethingWithCircuit uses "<x\n", whilst workingAppNowOntoHigherResolution uses "<>". 
+ Please take care of these conventions when pairing app and arduino codes. 
 
 While receiving data, the app also writes the data to a .csv file in downloads called arduinoData with the month and day : MMM_d. 
